@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!---define o html em português-->
+<head> <!---cabeça do código-->
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!---metadados obrigatorios para o funcionamento-->
+    <title>Calculadora De Colisão Elástica</title> <!---titulo-->
+    <link rel="stylesheet" href="style.css"> <!---redireciona ao link do stylesheet-->
+    <script scr="myscript.js"></script> <!---redireciona o código do myscript-->
+</head> <!---fecha a cabeça do código-->
+<body> <!---inicia o corpo do código-->
+    <div> <!---inicia uma divisão-->
+        <h1>Calculadora de Colisão Elástica</h1> <!---Titulo do Programa-->
+        <form action="#" method="POST" id="formulario"> <!---Inicio do Formulário-->
+            <div> <!---fecha a divisão do código-->
+            <label for="m1">Massa 1</label>
+            <INPUT TYPE="number" name="m1" id="Massa1">
+            </div>
+
+            <div>
+                <label for="m2">Massa 2</label>
+                <INPUT TYPE="number" name="m2" id="Massa2">
+                </div>
+            <div>
+            <label for="V1">Velocidade Inicial 1 (m/s)</label>
+            <INPUT TYPE="number" name="Vo" ID="velocidadeinicial1">
+            </div>
+            <div>
+                <label for="V2">Velocidade Inicial 2 (m/s)</label>
+                <INPUT TYPE="number" name="Vo" ID="velocidadeinicial2">
+                </div>
+         </form>
+         <!---Define um botão e um alerta-->
+         <button type="button" onclick="alert('Certifique-se que colocou tudo corretamente')" id="calcular">Calcule</button>
+        </form>
+
+         <!--resultado----->
+         <div>
+            <h2>Resultados</h2>
+            <p id="resultadovelocidadeinicial1"></p>
+            <p id="resultadovelocidadeinicial2"></p>
+
+        
+    </div>
+</body>
+</html> <!---finaliza o html-->
+    
+
